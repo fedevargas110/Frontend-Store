@@ -219,3 +219,40 @@ h3{
 .bloque__imagen{
     width: 100%;
 }
+
+/*--Pagina del Producto--*/
+
+@media (min-width:768px) {
+    .camisa{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+.formulario{
+
+}
+
+.formulario__campo{
+
+}
+
+.formulario__submit{
+    background-color: var(--secundario);
+    border: none;
+    font-family: var(--fuente);
+    font-size: 2rem;
+    padding: 2rem;
+    transition: font-size .3s ease;
+}
+
+.formulario__submit:hover{
+    cursor: pointer;
+    background-color: var(--secundarioOscuro);
+    font-size: 2.4rem;
+}
+
+.camisa__imagen{
+    width: 100%;
+}
